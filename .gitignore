@@ -1,0 +1,48 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Vector database
+js_code_vector_db/
+tools/js_code_vector_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Memory files
+conversation_memory.json
+
+# Practice/test files
+practice/
+
+# Temporary files
+*.tmp
+temp_*.py
+
+# Logs
+*.log
+
+# PyInstaller build files
+build/
+dist/
+*.spec.backup
+__pycache__/
