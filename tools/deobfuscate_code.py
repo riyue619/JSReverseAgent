@@ -128,7 +128,7 @@ def deobfuscate_code(temp_id: str) -> dict:
             "original_length": len(original_code),
             "cleaned_length": 0,
             "success": False,
-            "error": "请先安装：npm install -g deobfuscator",
+            "error": "请先安装：npm install -g synchrony",
         }
 
     except Exception as e:

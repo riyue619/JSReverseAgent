@@ -47,6 +47,7 @@ AI_Agent_6/
 ### 环境要求
 
 - Python >= 3.10
+- Node.js >= 18（反混淆功能依赖）
 - 支持 OpenAI 兼容 API 的 LLM 服务（千问 / DeepSeek / OpenAI）
 - Chromium 浏览器（Playwright 自动安装）
 
@@ -67,6 +68,9 @@ pip install -r requirements.txt
 
 # 4. 安装 Playwright 浏览器
 playwright install chromium
+
+# 5. 安装 Node.js 反混淆工具
+npm install -g synchrony
 ```
 
 ### 配置
